@@ -1,0 +1,63 @@
+{
+  "name": "mittbolan-display-client",
+  "version": "1.0.0",
+  "description": "Client for mittbolån display",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress --port 5555",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mikael.kristiansson@schibsted.se",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^4.0.2",
+    "@angular/compiler": "^4.0.2",
+    "@angular/core": "^4.0.2",
+    "@angular/forms": "^4.0.2",
+    "@angular/http": "^4.0.2",
+    "@angular/platform-browser": "^4.0.2",
+    "@angular/platform-browser-dynamic": "^4.0.2",
+    "@angular/router": "^4.0.2",
+    "animate.css": "^3.5.1",
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.1",
+    "jquery": "^2.2.2",
+    "noty": "^2.3.8",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.3.0",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "@angularclass/hmr": "^1.2.2",
+    "@angularclass/hmr-loader": "^3.0.2",
+    "@types/core-js": "^0.9.41",
+    "@types/lodash": "^4.14.62",
+    "@types/node": "^7.0.13",
+    "angular2-template-loader": "^0.6.2",
+    "autoprefixer": "^7.0.1",
+    "awesome-typescript-loader": "^3.1.3",
+    "base-href-webpack-plugin": "^1.0.2",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.2",
+    "postcss-loader": "^1.1.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "ts-helpers": "^1.1.2",
+    "ts-loader": "^2.0.3",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 3.10.9"
+  }
+}
